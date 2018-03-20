@@ -19,15 +19,22 @@
             android:layout_weight="1"
             />
 
-        <fragment
+        <!--<fragment-->
+            <!--android:id="@+id/right_fragment"-->
+            <!--android:name="com.zpj.myapplication5.Right_Activity"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+
+            <!--/>-->
+
+        <FrameLayout
             android:id="@+id/right_fragment"
-            android:name="com.zpj.myapplication5.Right_Activity"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            >
 
-            />
-
-
+        </FrameLayout>
 
 </LinearLayout>
